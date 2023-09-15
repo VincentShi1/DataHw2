@@ -1,0 +1,33 @@
+Some stuff ig
+
+Days are represented by a singular letter
+Time are two digits, separated by colon, hour, minute, sec
+
+accepted inputs: first(a file where we extract information from), second(output file), 
+third(information that you are going to output stats about), optional fourth(print info with name matching this input)
+
+##Conditions: if no rooms are found then: print "No data available"
+
+If argv[3] // third argument // exists then you will be outputing about courses in each room.
+4th argument just specifies what room courses you are printing from
+
+
+SORTING FOR ROOM
+room: sort alphabetically
+courses: sorted by day of week , Monday first
+courses same day// sorted by hour (when course starys)
+course same day same time// sort by course code : 1100-01 come before 1100-02. 
+if course code match// sort by department name, alphabetical; Ex: CHEM comes before CSCI
+
+SORTING FOR DEPT
+if argv[2] is dept then 4th agrument is mandtory
+4th argu would then specify a department code
+if department have no result, print "No data available" 
+course code first//
+earliest course da//
+starting hour//
+
+
+SAME FOR ALL
+column should have two spaces between each other
+
